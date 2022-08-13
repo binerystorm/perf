@@ -21,7 +21,7 @@ class Conf:
     }
 
 def print_usage(out: TextIO) -> None:
-    print("drex <directory> <prefix> [option]", file=out)
+    print("pref <directory> <prefix> [option]", file=out)
     print("Option:", file=out)
     print("\t-r: prefixes everything in the directory recursivly", file=out)
     print("\t-v: makes files verbosly", file=out)
